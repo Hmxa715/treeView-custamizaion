@@ -88,7 +88,5 @@ export class AppComponent implements OnInit {
   onFilterChange(value: string) {
       console.log('filter:', value);
   }
-  onSelectedChange(value: string): void{
-      console.log('selected: ', value);
-  }
+  
 }
